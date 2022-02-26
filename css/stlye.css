@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    
+}
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.container{
+    padding-top: 40px;
+
+}
+body{
+    text-align: center;
+    line-height: 1;
+    background-color: black;    
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+}
+a{
+    margin: 20px;
+}
+nav{
+    text-align: center;
+    float: right;
+}
+#logo{
+    height: 50px;
+    margin: 10px;
+}
+#mission{
+    display: flex;
+    align-items: center;  
+    justify-items: center;  
+    width: 1200px;
+    height: 700px;
+    align-items: baseline;
+    background-image: url("../images/img-mission-background.jpg");
+}
+.image{
+    width: 300px;
+    height: 200px;
+}
+#wrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px; 
+}
+.row{
+    margin: auto;
+    background-color: black;
+    width: 1200px;
+}
+#featuredTea{            
+    width: 1000px;    
+}
+#locations{      
+    align-items: center;    
+    width: 1200px;
+    height: 550px;
+    background-image: url("../images/img-locations-background.jpg");
+}
+.box{
+    width: 300px;
+    height: 300px;
+    margin: 0px 20px 0px 20px;
+    background-color: black;
+    align-items: center;
+}
+#contact{
+    height: 200px;
+}
+footer{
+    float: inline-start;
+}
+
+
